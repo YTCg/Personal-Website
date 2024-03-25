@@ -1,0 +1,56 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header Styling */
+  header {
+    background-color: #011946;
+    color: whitesmoke;
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Section Styling */
+  section {
+    padding: 50px;
+    background-color: beige;
+    text-align: center;
+    font-size: 20px;
+  }
+
+    section p {
+     font-style: italic;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .fa-solid {
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+  /* Footer Styling */
+  footer {
+    background-color: #011946;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+  }
